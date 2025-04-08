@@ -1,0 +1,17 @@
+{
+  "name": "tinyweb",
+  "version": "1.0.0",
+  "description": "",
+  "bin": {
+    "tinyweb": "src/main.mjs",
+    "make_header": "tools/make_header.py"
+  },
+  "scripts": {
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "esbuild": "^0.19.11"
+  }
+}
