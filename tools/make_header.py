@@ -25,7 +25,7 @@ with open(args.output, 'w') as f:
     f.write(
 f'''#pragma once
 
-const unsigned char index_html[] = {{
+const unsigned char index_html[] PROGMEM = {{
     {header_lines}, '\\r', '\\n', '\\r', '\\n',
     {hex_html_gz}
 }};
